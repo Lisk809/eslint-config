@@ -1,0 +1,32 @@
+{
+  "name": "@kigoo/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "ESlint config for TypeScript.",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript"
+  ],
+  "author": "Lisk <liskqwq@gmail.com> (https://github.com/lisk809)",
+  "license": "MIT",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/lisk809/eslint-config",
+    "directory": "packages/eslint-config-ts"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint-define-config": "^1.23.0",
+    "@kigoo/eslint-config-vanilla": "0.6.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5",
+    "eslint": "^8"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

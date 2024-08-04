@@ -1,0 +1,28 @@
+{
+  "name": "@kigoo/eslint-config",
+  "version": "0.0.1",
+  "description": "Viki's shareable full eslint config for JavaScript & TypeScript",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "javascript",
+    "typescript"
+  ],
+  "repository": "lisk809/eslint-config",
+  "author": "Lisk <liskqwq@gmail.com> (https://github.com/lisk809)",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-define-config": "^1.23.0",
+    "local-pkg": "^0.4.3",
+    "@kigoo/eslint-config-ts": "0.0.1",
+    "@kigoo/eslint-config-vanilla": "0.0.2"
+  },
+  "peerDependencies": {
+    "eslint": "^8"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
